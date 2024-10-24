@@ -13,7 +13,7 @@ final dropSuggestionsProvider =
 
 class GooglePlacesNotifier extends StateNotifier<List<String>> {
   GooglePlacesNotifier() : super([]);
-  final apiKey = 'AIzaSyADxQ9ZSp7t_A6DqG6TKNt9rsv6eOlLadQ';
+  final apiKey = 'Google API';
   Future<void> fetchSuggestions(
     String input,
   ) async {
